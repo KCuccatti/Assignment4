@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Stocks</title>
+ <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="text-center">
+    <h2 class="text-center">Crypto Currency Information</h2>
+    <form>
+    <input id="stockInfo" type="text" autocomplete="off"/> <br>
+    <input id="btnSubmit" type="submit" value="Submit"/> 
+    <input id="clear" name="clear" type="button" value="Clear"/>
+    </form>
+    <br><br>
+
+    <div id="btnArr">
+
+    </div>
+
+    <br>
+
+    </div>
+    
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Company Name</th>
+         <!-- <th scope="col">Industry</th> -->
+          <th scope="col">Stock Symbol</th>
+          <th scope="col">Price</th>
+          <th scope="col">Logo</th>
+        </tr>
+      </thead>
+      <tbody id="tBody">
+      </tbody>
+    </table>
+</div>
+    
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="logic.js"></script>
+</body>
+</html>
