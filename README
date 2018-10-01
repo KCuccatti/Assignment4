@@ -1,0 +1,7 @@
+  This project pulls stock information from the IEXTrading API and displays the data in table format for the user. 
+  Information such as: stock symbol(aapl,goog, etc.), company name, company logo, and current stock price. 
+  User may enter any stock symbol of their choice in the textbox and the basic stock information
+  of each symbol will be returned. 
+  Some desired functionality may be missing due to lack of time.
+  Project is maintained by myself (Kyle Cuccatti) as this project is my own. 
+  
