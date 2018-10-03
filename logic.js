@@ -23,7 +23,7 @@ $(document).ready(function () {
     stockSymbol = $('#stockInfo').val();
 
     // Check to see if symbol exists in validationList array. 
-    // TODO: CHANGE ALERT TO DIV TAG
+    // TODO: CHANGE ALERT TO DIV TAG  
     if (!contains(validationList.responseJSON, "symbol", stockSymbol)) {
       alert("Stock symbol was not found.");
       $('#stockInfo').val("");
